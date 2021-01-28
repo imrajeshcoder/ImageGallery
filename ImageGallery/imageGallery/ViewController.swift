@@ -25,14 +25,15 @@ class ViewController: UIViewController , UIImagePickerControllerDelegate , UINav
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         //btnfavourite.isSelected = false
-        
+        imgImageViewer.isUserInteractionEnabled=true
         let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(respondToSwipeGesture))
             swipeRight.direction = .right
-        self.view.addGestureRecognizer(swipeRight)
+        
+        self.imgImageViewer.addGestureRecognizer(swipeRight)
 
             let swipeLeft = UISwipeGestureRecognizer(target: self, action: #selector(respondToSwipeGesture))
             swipeLeft.direction = .left
-            self.view.addGestureRecognizer(swipeLeft)
+            self.imgImageViewer.addGestureRecognizer(swipeLeft)
     }
 
     @IBAction func btnPreviousImageTouch(_ sender: UIButton) {
