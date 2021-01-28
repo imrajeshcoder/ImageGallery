@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  imageGallery
 //
-
+//  Created by Vijay on 28/01/21.
 //
 
 import UIKit
