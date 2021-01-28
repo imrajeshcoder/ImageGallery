@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  imageGallery
+//  ImageGallery
 //
 //  Created by Vijay on 28/01/21.
 //
